@@ -1,0 +1,35 @@
+@import '../../styles/vars';
+
+.settings {
+  width: 100%;
+  padding: 0 60px;
+  
+  &__title {
+	margin-bottom: 60px;
+	font-family: "TT Norms Bold", sans-serif;
+	font-size: 1.5rem;
+  }
+}
+
+.price-input {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  
+  &__title {
+	margin-right: 5px;
+  }
+  
+  &__field {
+	width: 100px;
+	padding: 5px;
+	
+	border: none;
+	outline: none;
+	background-color: $color-gray;
+	
+	font-size: 1rem;
+	color: black;
+	font-family: "TT Norms Medium", sans-serif;
+  }
+}
